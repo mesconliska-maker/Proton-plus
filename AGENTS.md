@@ -14,7 +14,14 @@ A Vite development server is **already running** on `$PORT` (default 8443). You 
 This is the canonical project structure. Start with task-relevant files below. Only follow imports or inspect other files when required, when a documented path is missing, or when the repository contradicts this guide.
 
 - `src/main.tsx` - React entrypoint; imports `src/index.css` and mounts `src/App.tsx` into the `#root` element
-- `src/App.tsx` - Primary application component and the usual starting point for UI work
+- `src/App.tsx` - Root: tiny client-side router (`src/router.tsx`), Header/Footer layout, 404 page
+- `src/router.tsx` - Path + hash router with no dependencies (`Link`, `navigate`, `usePath`, `usePageMeta`)
+- `src/pages/` - `Home.tsx` (all homepage sections), `Mereni.tsx` (/mereni-radonu), `Opatreni.tsx` (/protiradonova-opatreni), `Radon.tsx` (/radon)
+- `src/components/` - `Header`, `Footer`, `ContactSection` (mailto form + map), `Logo` (SVG re-creation of the original logo), `Ui` (Eyebrow, buttons, PageHero, Card, CtaBand), `Icons`, `MoreIcons`
+- `src/data.ts` - Company facts (address, phones, e-mail, IČ/DIČ) and NAV items – edit contact details here
+- `src/theme.ts` - Colour tokens and font stacks
+- `public/` - favicon + OG image (rendered from the .svg sources), `schema-protiradonova-izolace.jpg` and `gdpr-proton.pdf` taken from the original protonplus.cz
+- `vercel.json` - SPA rewrite so subpage URLs work on Vercel
 - `src/index.css` - Global CSS entrypoint and Tailwind CSS v4 import
 - `index.html` - Vite HTML shell containing the `#root` element and loading `src/main.tsx`
 - `package.json` - Project dependencies and the Vite build, development, preview, and formatting scripts
