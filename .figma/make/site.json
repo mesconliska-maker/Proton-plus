@@ -1,6 +1,6 @@
 {
-  "title": "PROTON PLUS, spol. s r.o. | Měření radonu, osobní dozimetrie a protiradonová opatření – Olomouc",
-  "description": "PROTON PLUS, spol. s r.o., Olomouc. Měření radonu v objektech a radonového indexu pozemků, radonová diagnostika, osobní dozimetrie a ozdravná protiradonová opatření. Povolení SÚJB, na trhu od roku 1994. Tel. 585 243 460.",
+  "title": "Měření radonu, protiradonová opatření a radiační ochrana Olomouc | PROTON PLUS",
+  "description": "Radon a měření radonu v objektech i na pozemcích, radonová diagnostika, ozdravná protiradonová opatření, osobní dozimetrie a optimalizace radiační ochrany. PROTON PLUS, spol. s r.o., Olomouc – povolení SÚJB, od roku 1994. Tel. 585 243 460.",
   "language": "cs",
   "robots": {
     "index": true
@@ -15,6 +15,6 @@
     "image": "/og-image.png"
   },
   "customScripts": {
-    "headEnd": "<link rel=\"apple-touch-icon\" href=\"/apple-touch-icon.png\" />\n    <link rel=\"icon\" type=\"image/png\" sizes=\"64x64\" href=\"/favicon-64.png\" />\n    <meta name=\"theme-color\" content=\"#14202A\" />"
+    "headEnd": "<meta name=\"keywords\" content=\"radon, měření radonu, radonová diagnostika, protiradonová opatření, ozdravná protiradonová opatření, optimalizace radiační ochrany, osobní dozimetrie, radonový index pozemku, Olomouc\" />\n    <link rel=\"apple-touch-icon\" href=\"/apple-touch-icon.png\" />\n    <link rel=\"icon\" type=\"image/png\" sizes=\"64x64\" href=\"/favicon-64.png\" />\n    <meta name=\"theme-color\" content=\"#14202A\" />\n    <script type=\"application/ld+json\">{\"@context\":\"https://schema.org\",\"@type\":\"LocalBusiness\",\"name\":\"PROTON PLUS, spol. s r.o.\",\"url\":\"https://www.protonplus.cz/\",\"logo\":\"https://www.protonplus.cz/icon-512.png\",\"image\":\"https://www.protonplus.cz/og-image.png\",\"description\":\"Měření radonu, radonová diagnostika, ozdravná protiradonová opatření, osobní dozimetrie a optimalizace radiační ochrany. Povolení SÚJB, od roku 1994.\",\"telephone\":\"+420585243460\",\"email\":\"protonplus@protonplus.cz\",\"foundingDate\":\"1994-01\",\"vatID\":\"CZ60779471\",\"address\":{\"@type\":\"PostalAddress\",\"streetAddress\":\"Zeyerova 855/15\",\"addressLocality\":\"Olomouc\",\"postalCode\":\"779 00\",\"addressCountry\":\"CZ\"},\"areaServed\":\"Olomoucký kraj, Morava, Česká republika\",\"knowsAbout\":[\"radon\",\"měření radonu\",\"radonová diagnostika\",\"protiradonová opatření\",\"ozdravná protiradonová opatření\",\"osobní dozimetrie\",\"optimalizace radiační ochrany\"],\"makesOffer\":[{\"@type\":\"Offer\",\"itemOffered\":{\"@type\":\"Service\",\"name\":\"Měření radonu v objektech\"}},{\"@type\":\"Offer\",\"itemOffered\":{\"@type\":\"Service\",\"name\":\"Měření radonového indexu pozemku\"}},{\"@type\":\"Offer\",\"itemOffered\":{\"@type\":\"Service\",\"name\":\"Radonová diagnostika\"}},{\"@type\":\"Offer\",\"itemOffered\":{\"@type\":\"Service\",\"name\":\"Ozdravná protiradonová opatření\"}},{\"@type\":\"Offer\",\"itemOffered\":{\"@type\":\"Service\",\"name\":\"Osobní dozimetrie\"}},{\"@type\":\"Offer\",\"itemOffered\":{\"@type\":\"Service\",\"name\":\"Konzultační a poradenská činnost\"}}]}</script>"
   }
 }

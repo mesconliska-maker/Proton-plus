@@ -70,7 +70,7 @@ function Cell({ v }: { v: "x" | "*" | "" }) {
 
 export default function Opatreni() {
   usePageMeta(
-    "Protiradonová opatření – projekt a realizace | PROTON PLUS Olomouc",
+    "Ozdravná protiradonová opatření – projekt a realizace | PROTON PLUS Olomouc",
     "Ozdravná protiradonová opatření u nových i stávajících staveb: odvětrání podloží, protiradonová izolace, nucená ventilace. Projekt i realizace včetně stavebních prací. PROTON PLUS, spol. s r.o., Olomouc.",
   );
 
@@ -78,7 +78,7 @@ export default function Opatreni() {
     <>
       <PageHero
         eyebrow="OZDRAVNÁ PROTIRADONOVÁ OPATŘENÍ"
-        title="Protiradonová opatření od projektu po realizaci"
+        title="Ozdravná protiradonová opatření od projektu po realizaci"
         lead="Navrhujeme a realizujeme opatření proti radonu u novostaveb i stávajících objektů. Za dobu působení jsme je provedli v přibližně 150 rodinných domech a 50 základních a mateřských školách."
         crumbs={[{ label: "Úvod", href: "/" }, { label: "Protiradonová opatření" }]}
       />

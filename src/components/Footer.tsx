@@ -29,8 +29,8 @@ export function Footer() {
               <Logo variant="light" height={44} />
             </Link>
             <p className="text-sm leading-relaxed max-w-[360px]" style={{ color: muted, ...body }}>
-              Měření radonu v objektech i na pozemcích, radonová diagnostika, osobní dozimetrie
-              a ozdravná protiradonová opatření. Autorizace Státního úřadu pro jadernou
+              Radon a měření radonu v objektech i na pozemcích, radonová diagnostika, ozdravná
+              protiradonová opatření, osobní dozimetrie a optimalizace radiační ochrany. Autorizace Státního úřadu pro jadernou
               bezpečnost, na trhu od roku {COMPANY.founded}.
             </p>
           </div>

@@ -29,7 +29,7 @@ const LEVELS = [
 
 export default function Radon() {
   usePageMeta(
-    "Radon a jeho rizika – co je radon a odkud se bere | PROTON PLUS",
+    "Radon – co je radon, jeho rizika a měření radonu | PROTON PLUS Olomouc",
     "Co je radon, jak vzniká, jak proniká do budov a proč je důležité ho měřit. Referenční úrovně a možnosti ochrany. PROTON PLUS, spol. s r.o., Olomouc – měření radonu s povolením SÚJB.",
   );
 

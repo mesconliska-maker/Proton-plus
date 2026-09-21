@@ -43,8 +43,9 @@ function Hero() {
           className="text-lg leading-relaxed mb-10 max-w-[600px] mx-auto"
           style={{ color: "rgba(237,239,238,0.75)", ...body }}
         >
-          Měření radonu v objektech i na pozemcích, radonová diagnostika, osobní dozimetrie
-          a protiradonová opatření od projektu po realizaci. Olomouc a celá Morava.
+          Měření radonu v objektech i na pozemcích, radonová diagnostika, ozdravná protiradonová
+          opatření od projektu po realizaci, osobní dozimetrie a optimalizace radiační ochrany.
+          Olomouc a celá Morava.
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -209,7 +210,7 @@ const SERVICES = [
   {
     Icon: Icons.Chat,
     title: "Konzultační a poradenská činnost",
-    desc: "Odborné konzultace pro stavebníky, projektanty, majitele nemovitostí, školy a obce.",
+    desc: "Odborné konzultace pro stavebníky, projektanty, majitele nemovitostí, školy a obce. Optimalizace radiační ochrany na pracovištích s přírodními zdroji záření.",
     href: "/#kontakt",
   },
 ];
@@ -223,7 +224,7 @@ function ServicesGrid() {
           className="text-3xl md:text-[2.4rem] font-bold mb-4 max-w-xl leading-[1.2]"
           style={{ color: C.ink, ...heading }}
         >
-          Kompletní servis v oblasti radonu a radiační ochrany
+          Radon, měření radonu, protiradonová opatření a radiační ochrana
         </h2>
         <p className="text-base mb-14 max-w-xl leading-relaxed" style={{ color: "rgba(18,28,36,0.58)", ...body }}>
           Od prvního měření přes diagnostiku až po realizaci nápravy – vše pod jednou střechou,
@@ -299,7 +300,8 @@ function DosimetrySection() {
               Zaměstnanci na pracovištích se zvýšeným ozářením z přírodních zdrojů – typicky
               v prostorách s vyšší koncentrací radonu – musí mít dle legislativy zajištěno
               sledování radiační zátěže. Máme k této činnosti povolení Státního úřadu pro
-              jadernou bezpečnost a zajistíme ji pro vás kompletně.
+              jadernou bezpečnost a zajistíme ji pro vás kompletně – včetně návrhu opatření pro
+              optimalizaci radiační ochrany na pracovišti.
             </p>
             <ul className="space-y-3 mb-8">
               {DOSI_POINTS.map((pt) => (
@@ -400,7 +402,7 @@ function RemediationSection() {
               className="text-3xl md:text-[2.3rem] font-bold mb-5 leading-[1.2]"
               style={{ color: C.ink, ...heading }}
             >
-              Od diagnostiky po realizaci nápravy
+              Ozdravná protiradonová opatření od diagnostiky po realizaci
             </h2>
             <p className="text-base leading-relaxed mb-4" style={{ color: "rgba(18,28,36,0.65)", ...body }}>
               Zjistit problém je první krok. Skutečná hodnota naší práce je v tom, že ho také
@@ -579,8 +581,8 @@ function WhyItMatters() {
 /* ══════════════════════════════════════════ PAGE ══ */
 export default function Home() {
   usePageMeta(
-    "PROTON PLUS, spol. s r.o. | Měření radonu, osobní dozimetrie a protiradonová opatření – Olomouc",
-    "PROTON PLUS, spol. s r.o., Olomouc. Měření radonu v objektech a radonového indexu pozemků, radonová diagnostika, osobní dozimetrie a ozdravná protiradonová opatření. Povolení SÚJB, na trhu od roku 1994. Tel. 585 243 460.",
+    "Měření radonu, protiradonová opatření a radiační ochrana Olomouc | PROTON PLUS",
+    "Radon a měření radonu v objektech i na pozemcích, radonová diagnostika, ozdravná protiradonová opatření, osobní dozimetrie a optimalizace radiační ochrany. PROTON PLUS, spol. s r.o., Olomouc – povolení SÚJB, od roku 1994. Tel. 585 243 460.",
   );
   return (
     <>
