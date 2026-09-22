@@ -1,3 +1,55 @@
 {
-  "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }]
+  "redirects": [
+    {
+      "source": "/index.htm",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/www/mapa_str.htm",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/www/kontakt.htm",
+      "destination": "/#kontakt",
+      "permanent": true
+    },
+    {
+      "source": "/www/pr_poptavka.htm",
+      "destination": "/#kontakt",
+      "permanent": true
+    },
+    {
+      "source": "/www/reference.htm",
+      "destination": "/#reference",
+      "permanent": true
+    },
+    {
+      "source": "/www/neb_radonu.htm",
+      "destination": "/radon",
+      "permanent": true
+    },
+    {
+      "source": "/www/zp_odstraneni.htm",
+      "destination": "/protiradonova-opatreni",
+      "permanent": true
+    },
+    {
+      "source": "/www/opatreni.htm",
+      "destination": "/protiradonova-opatreni",
+      "permanent": true
+    },
+    {
+      "source": "/www/mereni.htm",
+      "destination": "/mereni-radonu",
+      "permanent": true
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
 }
